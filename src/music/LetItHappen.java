@@ -1,4 +1,8 @@
-public class Music {
+package music;
+
+import colour.Colours;
+
+public class LetItHappen {
 
     public static void printSentenceWithDelay(String sentence, String sentenceColour, int delayMillis) throws Exception {
 

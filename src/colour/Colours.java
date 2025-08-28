@@ -1,3 +1,5 @@
+package colour;
+
 public enum Colours {
 
     RESET("\u001B[0m"),
