@@ -23,22 +23,20 @@ public class Music {
 
 
         printSentenceWithDelay("moving on",
-                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
-                2000);
-
-        System.out.println();
-
-        printSentenceWithDelay("Oh, but maybe",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
                 2000);
 
         System.out.println();
 
-        printSentenceWithDelay("I was ready",
+        printSentenceWithDelay("Oh, but maybe",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
                 2000);
 
         System.out.println();
+
+        printSentenceWithDelay("I was ready",
+                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
+                2000);
 
         printSentenceWithDelay("all along",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
@@ -52,24 +50,24 @@ public class Music {
 
         System.out.println();
 
-        printSentenceWithDelay("for the moment",
+        printSentenceWithDelay("for this moment",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
                 2000);
 
         printSentenceWithDelay("and the sound",
-                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
+                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
                 2000);
 
         System.out.println();
 
         printSentenceWithDelay("Oh, but maybe",
-                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
+                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
                 2000);
 
         System.out.println();
 
         printSentenceWithDelay("I was ready",
-                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
+                Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
                 2000);
 
         printSentenceWithDelay("all along",
@@ -78,7 +76,7 @@ public class Music {
 
         System.out.println();
 
-        printSentenceWithDelay("Oh, i'm ready.",
+        printSentenceWithDelay("Oh, baby...",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
                 2000);
     }
