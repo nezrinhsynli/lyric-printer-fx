@@ -4,85 +4,77 @@ import colour.Colours;
 
 public class LetItHappen {
 
-    public static void printSentenceWithDelay(String sentence, String sentenceColour, int delayMillis) throws Exception {
-
-        for (String word : sentence.split("-")) {
-            System.out.print(sentenceColour + word + " ");
-            Thread.sleep(delayMillis);
-        }
-
-    }
-
     public static void main(String[] args) throws Exception {
 
-        printSentenceWithDelay("Baby,",
+        int delayMillis = 2000;
+
+        Print.printSentenceWithDelay("Baby,",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("underline", Colours.PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("now i'm ready",
+        Print.printSentenceWithDelay("now i'm ready",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
-
-        printSentenceWithDelay("moving on",
+        Print.printSentenceWithDelay("moving on.",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("Oh, but maybe",
+        Print.printSentenceWithDelay("Oh, but maybe",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("I was ready",
+        Print.printSentenceWithDelay("I was ready",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
-        printSentenceWithDelay("all along",
+        Print.printSentenceWithDelay("all along",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("Oh i'm ready",
+        Print.printSentenceWithDelay("Oh i'm ready",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("for this moment",
+        Print.printSentenceWithDelay("for this moment",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
-        printSentenceWithDelay("and the sound",
+        Print.printSentenceWithDelay("and the sound",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("Oh, but maybe",
+        Print.printSentenceWithDelay("Oh, but maybe",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("I was ready",
+        Print.printSentenceWithDelay("I was ready",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
-        printSentenceWithDelay("all along",
+        Print.printSentenceWithDelay("all along",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.BRIGHT_PURPLE.getCode())),
-                2000);
+                delayMillis);
 
         System.out.println();
 
-        printSentenceWithDelay("Oh, baby...",
+        Print.printSentenceWithDelay("Oh, baby...",
                 Colours.addStyleToColour("bold", Colours.addStyleToColour("italic", Colours.PURPLE.getCode())),
-                2000);
+                delayMillis);
     }
 
 }
